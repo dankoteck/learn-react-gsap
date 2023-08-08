@@ -5,6 +5,7 @@ body,
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 * {
@@ -19,39 +20,14 @@ body,
   justify-content: center;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  border-radius: 1rem;
-  display: block;
-  margin-right: 2rem;
-  cursor: pointer;
+#svg {
+  margin: 10px;
 }
 
-.green {
-  background-color: green;
-}
-
-.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.purple {
-  background-color: purple;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.pink {
-  background-color: pink;
+#logo,
+#lines,
+#ByGreenSock,
+#DrawSVG,
+#Plugin {
+  visibility: hidden;
 }
